@@ -1,0 +1,34 @@
+{
+  "txid": "00072d4aa354b5987eb8f2ffec440db7467b0581c5e845a6a0ef6999b2d05656",
+  "hash": "9d9038a3a205b6629a5042dd98b7afec49ee83774fd80f1d44313ed54b14d7c6",
+  "version": 2,
+  "size": 180,
+  "vsize": 116,
+  "weight": 462,
+  "locktime": 0,
+  "vin": [
+    {
+      "txid": "084d5a9c6a8c176c24edc0a8b7ce54ed65808a326367d8a9299b4460ecaada09",
+      "vout": 0,
+      "scriptSig": { "asm": "", "hex": "" },
+      "txinwitness": [
+        "68656c6c6f",
+        "776f726c64",
+        "7ea820936a185caaa266bb9cbe981e9e05cb78cd732b0b3280eb944412bb6f8f8f07af87",
+        "c050be5fc44ec580c387bf45df275aaa8b27e2d7716af31f10eeed357d126bb4d3"
+      ],
+      "sequence": 4294967293
+    }
+  ],
+  "vout": [
+    {
+      "value": 0.00049500,
+      "n": 0,
+      "scriptPubKey": {
+        "address": "tb1p4ug2v8qgpn2g032n0h2lvz8nst7efn4vpn5tfl4ynfs9k4zz8azqwnmkrp",
+        "type": "witness_v1_taproot"
+      }
+    }
+  ],
+  "blockhash": "0000000c2207e540b177de9669f2deea85a96a3467db7f80b176d4eead6f9bfb"
+}
