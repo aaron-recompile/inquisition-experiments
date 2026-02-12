@@ -6,7 +6,7 @@ Python experiments on [Bitcoin Inquisition](https://github.com/bitcoin-inquisiti
 
 - **Minimal Python scaffolding** — Swap in your WIF, point at your node, run. No ceremony.
 - **On-chain proof** — Real signet TxIDs; anyone can verify the experiment structure.
-- **btcaaron in action** — Built with [btcaaron](https://github.com/aaron-recompile/btcaaron); reproducible Taproot workflows.
+- **btcaaron in action** — [btcaaron](https://github.com/aaron-recompile/btcaaron): pragmatic Taproot toolkit for reproducible experiments and script-path development.
 
 ## Experiment
 
