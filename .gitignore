@@ -5,3 +5,14 @@ __pycache__/
 .venv/
 venv/
 .cat_fund_txid
+.csfs_fund_txid
+.ctv_fund_txid
+.ctv_change_addr
+
+# Local workspace and personal notes (do not publish)
+experiments/inquisition-experiments.code-workspace
+results/WORKLOG.md
+
+# Local tracking artifacts (generated, append-only)
+results/confirmation_snapshots.jsonl
+results/confirmation_status.md

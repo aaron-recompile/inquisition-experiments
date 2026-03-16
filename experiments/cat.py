@@ -42,7 +42,7 @@ def print_setup():
 
 def do_fund():
     from config import rpc_wallet
-    txid = rpc_wallet("sendtoaddress", addr, 0.0005)
+    txid = rpc_wallet("sendtoaddress", addr, 0.0005, "", "", False, False, None, "unset", False, 1)
     with open(FUND_TXID_FILE, "w") as f:
         f.write(txid)
     print(f"Commit TxID: {txid}")
