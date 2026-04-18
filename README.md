@@ -15,8 +15,8 @@ Python experiments on [Bitcoin Inquisition](https://github.com/bitcoin-inquisiti
 | **cat** | OP_CAT witness lock: data in witness, only holder of part_a/part_b can spend. | `084d5a9c6a8c176c24edc0a8b7ce54ed65808a326367d8a9299b4460ecaada09` | `00072d4aa354b5987eb8f2ffec440db7467b0581c5e845a6a0ef6999b2d05656` |
 | **csfs** | OP_CHECKSIGFROMSTACK: BIP340 sign arbitrary message, verify in script. | `96df453d9e9ce50fdfca063528b03e3310033c3a61818bbe30e7fab5c61133e3` | `a5260c3dee88b1c0949ea71a57f8f0481f399a84fc89d59c38ac877149908e95` |
 | **ctv** | OP_CHECKTEMPLATEVERIFY: commit to output template, spend tx must match exactly. | `2378642548c7f86472d3998a0fcb2d364084783e487dd87c1e1020684aed51de` | `9ccbce8ad87f0f94632119245a42537c9fbd2c8f706621f76f513339f220d55c` |
-| **internalkey** | OP_INTERNALKEY: reference the Taproot internal key from script path. | `1428d3e2db6bcc6050053f5fee710ec4c254f375d825486a19da49a4763e7676` | — |
-| **apo_template** | BIP-118 (SIGHASH_ANYPREVOUT) tapscript template. | `4b6451082fe4349fdb2acad6bf0964c6cfd8c9cbf5161806fc342b051dee344a` | — |
+| **internalkey** | OP_INTERNALKEY: reference the Taproot internal key from script path. | `1428d3e2db6bcc6050053f5fee710ec4c254f375d825486a19da49a4763e7676` | `bac6478e3b60e2a1b7f68643ce43e9f94f25aa3d917c7a2daadab6a97f87fd53` |
+| **apo_template** | BIP-118 (SIGHASH_ANYPREVOUT) tapscript template. Spend demonstrates rebinding — see [Delving post](https://delvingbitcoin.org/t/bip-118-signing-from-scratch-on-chain-rebinding-proof/2411). | `4b6451082fe4349fdb2acad6bf0964c6cfd8c9cbf5161806fc342b051dee344a` | `03c0577c1d47da32804d098187644d0eee18b448aded2f427cd02193c070f3a4` |
 | **csfs_rekey** | CSFS off-chain key delegation: A signs B's pubkey, B later spends with the delegation + own signature. | `219655b5823f4b5a3319f16b107b8f7c7f0faa41b112d64b20d905528f5c8e97` | `0177142057e0e271e12c84be8ac0694e461cb32c40f0e7f09351aa64cb2f6b3f` |
 
 Full TxIDs and addresses: [results/transactions.md](results/transactions.md)
