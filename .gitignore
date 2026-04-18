@@ -4,10 +4,20 @@ __pycache__/
 .env
 .venv/
 venv/
+
+# Local fund/spend state files (per-experiment, regenerated on each run)
 .cat_fund_txid
 .csfs_fund_txid
 .ctv_fund_txid
 .ctv_change_addr
+.csfs_rekey_fund_txid
+.csfs_rekey_delegation.json
+.internalkey_template_fund_txid
+.apo_template_fund_txid
+.csfs_template_fund_txid
+.cat_template_fund_txid
+.ctv_template_fund_txid
+.ctv_template_change_addr
 
 # Local workspace and personal notes (do not publish)
 experiments/inquisition-experiments.code-workspace
